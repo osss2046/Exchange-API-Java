@@ -5,7 +5,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class HttpCliente {
-    private static final String API_KEY = "f38fdda53609a8e27c78249f"; // Reemplaza con tu API Key
+    private static final String API_KEY = "key"; // Reemplaza con tu API Key
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/latest/";
 
     public static String get(String currency) throws Exception {
